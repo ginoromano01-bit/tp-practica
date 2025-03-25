@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iniciar sesion</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="fondo">
+    <div class="containermainlogin">
+        <form action="" class="form">
+            <input type="text" placeholder="Usuario" class="recuadro">
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Contraseña" class="recuadro">
+                <button type="button" id="togglePassword">👁</button>
+            </div>
+            <button onclick="" class="boton">Iniciar Sesion</button>
+            <p><a href="" class="recuperar">¿Olvidaste tu Contraseña?</a></p>
+        </form>
+    </div>
+</body>
+
+<script>
+    const togglePassword = document.getElementById("togglePassword");
+    const passwordInput = document.getElementById("password");
+
+    togglePassword.addEventListener("click", function () {
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            togglePassword.textContent = "🙈"; // Cambia icono a "ocultar"
+        } else {
+            passwordInput.type = "password";
+            togglePassword.textContent = "👁"; // Cambia icono a "mostrar"
+        }
+    });
+</script>
+</html>

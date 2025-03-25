@@ -1,0 +1,96 @@
+.fondo{
+    /*background-image: url("https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
+    background: url("https://images.unsplash.com/photo-1499744349893-0c6de53516e6?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.containermainlogin{
+    background-color: rgba(120, 252, 175, 0.5);
+    padding: 20px;
+    min-width: 350px;
+    border-radius: 15px;
+    width: 90%;
+    height: 200px;
+    margin-left: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.recuadro{
+    cursor: pointer;
+    background: rgba(180, 235, 209, 0.8);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 280px;
+    color: #2e2929;    
+    
+}
+
+.boton {
+    background-color: rgb(159, 173, 170);
+    border-radius: 5px;
+    
+}
+.boton :hover{
+    background: #45a049;
+    
+}
+.recuperar{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #1f1a1a;
+}
+.recuperar :hover{
+    color: #272424;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    position: relative;
+}
+
+/* Input de contraseña */
+.password-container input {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    padding-right: 40px; /* Espacio para el botón */
+    width: 100%;
+}
+
+/* Botón de mostrar contraseña */
+.password-container button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+
+/* registro*/
+
